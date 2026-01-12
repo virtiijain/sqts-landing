@@ -1,9 +1,9 @@
 import React from "react";
-import { FaEye, FaBullseye } from "react-icons/fa";
+import { FaEye, FaBullseye, FaHandshake } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section className="py-20 px-6">
+    <section id="about" className="py-20 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <p className="uppercase text-sm tracking-widest text-gray-500 mb-2">
@@ -15,7 +15,7 @@ const About = () => {
           </h2>
         </div>
         <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
-          <div className="grid md:grid-cols-2 gap-10 items-start">
+          <div className="grid md:grid-cols-3 gap-10 items-start">
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <FaEye className="text-blue-700 text-xl" />
@@ -28,7 +28,6 @@ const About = () => {
                 and digital solutions to help businesses grow.
               </p>
             </div>
-            <div className="hidden md:block w-px bg-gray-200 mx-auto"></div>
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <FaBullseye className="text-blue-700 text-xl" />
@@ -38,6 +37,18 @@ const About = () => {
               </div>
               <p className="text-gray-600 leading-relaxed">
                 IT Services | Staffing | Digital Solutions
+              </p>
+            </div>
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <FaHandshake className="text-blue-700 text-xl" />
+                <h3 className="text-2xl font-semibold text-gray-800">
+                  Our Approach
+                </h3>
+              </div>
+              <p className="text-gray-600 leading-relaxed">
+                We follow a client-first approach, focusing on scalable,
+                cost-effective, and future-ready technology solutions.
               </p>
             </div>
           </div>

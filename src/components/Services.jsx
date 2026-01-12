@@ -30,7 +30,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="py-20 px-6">
+    <section id="services" className="py-20 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-12">
           <div>
@@ -67,7 +67,7 @@ const Services = () => {
               </p>
 
               <button className="mt-4 text-sm cursor-pointer font-medium text-blue-600 hover:underline">
-                Learn more →
+                Learn more
               </button>
             </div>
           ))}

@@ -34,7 +34,7 @@ const points = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-20 px-6">
+    <section id="why-us" className="py-20 px-6">
       <h2 className="text-4xl font-bold text-center mb-16 text-gray-800">
         Why Choose Us?
       </h2>
